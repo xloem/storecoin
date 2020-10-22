@@ -1,0 +1,18 @@
+# storecoin
+
+A casual draft hobby idea, to solve together the cryptocurrency storage and energy use problems.
+
+# draft ideas
+
+the below is a work in progress of how to do this, improvements desired
+for now there are enough ideas below to begin forking a well-maintained coin to do this
+
+- each node need not store the whole blockchain, but must store at least 1 block
+- protocol messages are signed so that proof can be offered of misbehaving peers
+- blocks contain double-signed assertations from peers that other peers behaved correctly or incorrectly and demonstrated storage of so many blocks
+- reward is distributed to everyone behaving fully correctly, in proportion to how much of the blockchain they are proven to store and provide
+- the protocol includes moving small bits of the historical chain around that recipients either desire or already have, to verify that it is being stored and provided correctly
+
+we can shrink the size of proofs of demonstration since they will reuse existing data
+otherwise, when the blockchain is not being transferred, we only need signed assertations that peers behaved correctly, without actual packet data,
+or only the signed packets demonstrating peers did not behave correctly: and only one of those is needed to prevent giving them the reward.
