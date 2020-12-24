@@ -2,6 +2,13 @@
 
 A casual draft hobby idea, to solve together the cryptocurrency storage and energy use problems.
 
+# draft ideas 2
+
+- fork an existing coin, like datacoin
+- block proof plan: hashrate + storage.  a miner must meet a hash challenge[, and possibly accept as many paid for transactions as everyone else has].
+- modern password key derivation function can be used for hashrate.  this way leading cryptographers are ensuring it is hard to break.
+  [entire chain is ideally included in hash, to ensure it is all stored, but err on ease of implementation].
+
 # draft ideas
 
 the below is a work in progress of how to do this, improvements desired
